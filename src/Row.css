@@ -1,0 +1,31 @@
+.main-div{
+    margin-left: 20px;
+    color: white;
+}
+
+.data-div{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.data-div::-webkit-scrollbar{
+    display: none;
+}
+.movie-img{
+    width: 100%;
+    object-fit: contain;
+    max-height:100px;
+    margin-right: 20px;
+    transition: transform 500ms;
+}
+.movie-img-large{
+    max-height: 250px;
+}
+.movie-img-large:hover{
+    transform: scale(1.13);
+}
+.movie-img:hover{
+    transform: scale(1.1);
+}
